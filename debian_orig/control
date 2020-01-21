@@ -1,0 +1,18 @@
+Source: vscpl1drv-xap
+Section: utils
+Priority: optional
+Maintainer: Ake Hedman <akhe@grodansparadis.com>
+Build-Depends: debhelper (>= %COMPAT)
+Standards-Version: 4.1.3
+Homepage: https://www.vscp.org
+Vcs-Browser: https://github.com/grodansparadis/vscpl1drv-xap
+Vcs-Git: https://github.com/grodansparadis/vscpl1drv-xap.git
+
+Package: vscpl1drv-xap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libc6-dev (>= 2.14),
+ libstdc++6 (>= 4.9), libgcc1 (>= 1:3.0)
+Description: Level I can4vscp driver for VSCP Works, VSCP Daemon and 
+ other software that can load and use VSCP level I/CANAL drivers. The
+ driver is used to communicate with all devices that implement the
+ VSCP serial protocol.

@@ -1,0 +1,3 @@
+/var/lib/vscp/drivers/level1/vscpl1drv-xap.so.%MAJOR-VERSION.%MINOR-VERSION.%RELEASE-VERSION /usr/lib/%SUBFOLDER/vscpl1drv-xap.so.%MAJOR-VERSION.%MINOR-VERSION
+/var/lib/vscp/drivers/level1/vscpl1drv-xap.so.%MAJOR-VERSION.%MINOR-VERSION.%RELEASE-VERSION /usr/lib/%SUBFOLDER/vscpl1drv-xap.so.%MAJOR-VERSION
+/var/lib/vscp/drivers/level1/vscpl1drv-xap.so.%MAJOR-VERSION.%MINOR-VERSION.%RELEASE-VERSION /usr/lib/%SUBFOLDER/vscpl1drv-xap.so

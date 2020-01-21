@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_shlibdeps:
+	dpkg-shlibdeps -Tdebian/vscpl1drv-xap.substvars $$(pwd)/debian/vscpl1drv-xap/var/lib/vscp/drivers/level1/vscpl1drv-xap.so.%MAJOR-VERSION.%MINOR-VERSION.%RELEASE-VERSION
+
+
+override_dh_auto_install:
+	strip linux/vscpl1drv-xap.so.%MAJOR-VERSION.%MINOR-VERSION.%RELEASE-VERSION
+

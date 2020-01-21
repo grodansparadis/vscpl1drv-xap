@@ -1,0 +1,5 @@
+vscpl1drv-xap (%MAJOR-VERSION.%MINOR-VERSION.%RELEASE-VERSION-%RELEASE-DEBIAN) stable; urgency=medium
+
+  * Initial release
+
+ -- Ake Hedman <akhe@grodansparadis.com>  %DATENOW
